@@ -1,6 +1,6 @@
 import React, {useState, useRef, useEffect} from 'react';
 //import './Milim.css';
-//import words from '../data/words.js'
+import words from '../data/words.js'
 
 let alreadyUsedWords = [];
 let incorrectAnswers = [];
@@ -34,6 +34,24 @@ const inputRef = useRef(null);
 useEffect(() => {
   inputRef.current.focus();
 }, []);
+
+const changeLanguage = () => {
+  language === 'english' ?
+  setLanguage('russian') :
+  setLanguage('english')
+}
+
+const correctAnswerEng = `Correct! '${words[word].english}' is <span id='orange'>${words[word].hebrew}</span>.
+<span id='pronunciation'>Show pronunciation</span>`;
+
+const correctAnswerRus = `Верно! '${words[word].russian}' это <span id='orange'>${words[word].hebrew}</span>.
+<span id='pronunciation'>Показать произношение</span>`;
+
+const incorrectAnswerEng = `<span id='orange'>${inputValue}</span> was incorrect. 
+Correct answer: <span id='orange'>${words[word].hebrew}</span>. <br>Try next word.`;
+
+const incorrectAnswerRus = `<span id='orange'>${inputValue}</span> - это неправильный ответ. 
+Правильный ответ: <span id='orange'>${words[word].hebrew}</span>. <br>Попробуйте следующее слово.`
 
 
 

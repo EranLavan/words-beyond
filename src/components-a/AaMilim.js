@@ -65,6 +65,49 @@ const checkAnswer = () => {
 
   const randomUniqueNumber = getRandomUniqueNumber();
 
+  if (inputValue === '') {
+    language === 'english' ?
+    setMessage(`Type the word inside the input please`) :
+    setMessage(`Напишите слово в поле, пожалуйста`);
+
+  } else if (inputValue === words[word].hebrew && counter < words.length - 2) {
+    setScore(score + 1);
+
+    language === 'english' ?
+    setMessage(correctAnswerEng) :
+    setMessage(correctAnswerRus)
+
+    setWord(randomUniqueNumber - 1);
+    setCounter(counter + 1);
+
+    alreadyUsedWords.push(randomUniqueNumber);
+
+  } else if (counter < words.length - 2) {
+
+    language === 'english' ?
+    setMessage(incorrectAnswerEng) :
+    setMessage(incorrectAnswerRus)
+
+    setWord(randomUniqueNumber - 1);
+    setCounter(counter + 1);
+
+    alreadyUsedWords.push(randomUniqueNumber);
+    incorrectAnswers.push(randomUniqueNumber);
+
+  } else if (inputValue === words[word].hebrew) {
+
+    setScore(score + 1);
+    setShowFinalResults(true)
+
+  } else {
+
+    incorrectAnswers.push(randomUniqueNumber);
+    setShowFinalResults(true)
+
+  }
+
+  setInputValue('');
+  setShowPronunciation(false);
 
 }
 

@@ -54,6 +54,19 @@ const incorrectAnswerRus = `<span id='orange'>${inputValue}</span> - это не
 Правильный ответ: <span id='orange'>${words[word].hebrew}</span>. <br>Попробуйте следующее слово.`
 
 
+const checkAnswer = () => {
+
+  function getRandomUniqueNumber() {
+    do {
+      randomNumber = (Math.ceil(Math.random()*(words.length - 1)));
+    } while (alreadyUsedWords.includes(randomNumber));
+    return randomNumber;
+  }
+
+  const randomUniqueNumber = getRandomUniqueNumber();
+
+
+}
 
   return (
     <>

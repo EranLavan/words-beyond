@@ -111,6 +111,54 @@ const checkAnswer = () => {
 
 }
 
+const skip = () => {
+
+  function getRandomUniqueNumber() {
+    do {
+      randomNumber = (Math.ceil(Math.random()*(words.length - 1)));
+    } while (alreadyUsedWords.includes(randomNumber));
+    return randomNumber;
+  }
+
+  const randomUniqueNumber = getRandomUniqueNumber();
+
+  checkAnswer();
+  setMessage('');
+  setWord(randomUniqueNumber - 1);
+  setCounter(counter + 1);
+  setShowPronunciation(false);
+
+  alreadyUsedWords.push(randomUniqueNumber);
+
+}
+
+const stopQuiz = () => {
+  checkAnswer();
+  setShowFinalResults(true)
+}
+
+const previousWord = words[alreadyUsedWords[alreadyUsedWords.length - 2] - 1];
+
+const restart = () => {
+  setShowFinalResults(false);
+  setScore(0);
+  setWord(randomNumber - 1);
+  setMessage(``);
+  setCounter(0);
+  alreadyUsedWords = [];
+}
+
+const pronounce = () => {
+  setShowPronunciation(true);
+}
+
+const handleKeyDown = (event) => {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    buttonRef.current.click();
+  }
+};
+
   return (
     <>
       

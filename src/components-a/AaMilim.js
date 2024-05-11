@@ -175,6 +175,43 @@ useEffect(() => {
 
   return (
     <>
+      <div className='container'>
+        { showFinalResults ? (
+          <>
+            <div className='milim-results'>
+              <h2>
+                {
+                  language === 'english' ?
+                  `Your results:` :
+                  `Ваши результаты`
+                }
+              </h2>
+
+              <h2>
+                {
+                  language === 'english' ?
+                  `${score} out of ${counter} were answered correctly (${Math.round(score/(counter)*10000)/100}%)` :
+                  `${score} из ${counter} слов были названы правильно (${Math.round(score/(counter)*10000)/100}%)`
+                }
+              </h2>
+            </div>
+
+            <div className='center'>
+              <button className='click-button' onClick={() => restart()}>
+                {
+                  language === 'english' ?
+                  `Try again!` :
+                  `Попробуйте ещё раз!`
+                }
+              </button>
+            </div>
+          </>
+        ) : (
+          <>
+          </>
+        )}
+
+      </div>
       
     </>
   )

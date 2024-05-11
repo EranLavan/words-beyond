@@ -159,6 +159,20 @@ const handleKeyDown = (event) => {
   }
 };
 
+const handleOutsideClick = (event) => {
+  if (inputRef.current && !inputRef.current.contains(event.target)) {
+    inputRef.current.focus();
+  }
+}
+
+useEffect(() => {
+  document.addEventListener('click', handleOutsideClick);
+
+  return () => {
+    document.removeEventListener('click', handleOutsideClick);
+  }
+}, []);
+
   return (
     <>
       

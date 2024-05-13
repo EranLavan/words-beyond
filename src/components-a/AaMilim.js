@@ -208,6 +208,35 @@ useEffect(() => {
           </>
         ) : (
           <>
+            <div className="Milim">
+              <h2>
+                {
+                  language === 'english' ?
+                  `Translate the following word to Hebrew` :
+                  `Переведите слово на иврит:`
+                }
+              </h2>
+
+              <h1 className='word'>
+                {
+                  language === 'english' ?
+                  `${words[word].english}` :
+                  `${words[word].russian}`
+                }
+              </h1>
+
+              <div>
+                <input
+                  ref={inputRef}
+                  className='input'
+                  type='text'
+                  placeholder='הזן את המילה בעברית'
+                  onKeyDown={handleKeyDown}
+                  value={inputValue}
+                  onChange={(e) => setInputValue(e.target.value)}>
+                </input>
+              </div>
+            </div>
           </>
         )}
 

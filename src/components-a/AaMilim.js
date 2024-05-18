@@ -236,6 +236,46 @@ useEffect(() => {
                   onChange={(e) => setInputValue(e.target.value)}>
                 </input>
               </div>
+
+              <div className='button-div'>
+                <button
+                  ref={buttonRef}
+                  className='click-button'
+                  onClick={() => checkAnswer()}
+                >
+                  {
+                    language === 'english' ?
+                    `Check!` :
+                    `Проверить!`
+                  }
+                </button>
+
+                <button
+                  className='click-button'
+                  onClick={() => skip()}
+                >
+                  {
+                    language === 'english' ?
+                    `Skip this word` :
+                    `Пропустить`
+                  }
+                </button>
+
+                <button
+                  className='click-button'
+                  onClick={() => stopQuiz()}
+                >
+                  {
+                    language === 'english' ?
+                    `Stop` :
+                    `Остановиться`
+                  }
+                </button>
+              </div>
+
+              <h3 className='h3'>
+    
+              </h3>
             </div>
           </>
         )}

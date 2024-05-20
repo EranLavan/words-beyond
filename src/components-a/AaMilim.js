@@ -288,13 +288,30 @@ useEffect(() => {
                   ))}
                 </div>
 
-              
+              <div id='hidden'>
+                {
+                  showPronunciation ?
+
+                  (previousWord === undefined ? '' : (
+                    <div id='italic'>{
+                      language === 'english' ?
+                      words[previousWord.id - 1].pronuncEng :
+                      words[previousWord.id - 1].pronuncRus
+                    }</div>)) 
+                    // note that we added second parentheses here, right before "previousWord undefined check"
+                    : ''
+                }
+              </div>
 
               </div>
             </div>
           </>
         )}
 
+      </div>
+
+      <div className="language-switch">
+        
       </div>
       
     </>

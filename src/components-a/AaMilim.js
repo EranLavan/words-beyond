@@ -274,8 +274,23 @@ useEffect(() => {
               </div>
 
               <h3 className='h3'>
-    
+                {
+                  language === 'english' ?
+                  `Current score: ${score}` :
+                  `Текущий счёт: ${score}`
+                }
               </h3>
+
+              <div className='one-line-div'>
+                <div className='h3' id='message' onClick={() => pronounce()}>
+                  {message.split('<br />').map((line, index) => (
+                    <div key={index} dangerouslySetInnerHTML={{ __html: line }} />
+                  ))}
+                </div>
+
+              
+
+              </div>
             </div>
           </>
         )}

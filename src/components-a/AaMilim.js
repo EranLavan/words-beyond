@@ -311,8 +311,20 @@ useEffect(() => {
       </div>
 
       <div className="language-switch">
+        <button
+          className="language-switch-button"
+          onClick={() => changeLanguage()}>
+            {
+              language === 'english'
+              ? 'Русский язык'
+              : 'English'
+            }
+
+        </button>
         
       </div>
+
+      
       
     </>
   )

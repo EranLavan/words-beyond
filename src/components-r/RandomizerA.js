@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './RandomizerA.css';
+import './styles/RndAStyleC.css';
 
 function RandomizerA() {
 
@@ -14,18 +14,19 @@ function RandomizerA() {
 
 
   return (
-    <>
-      <div>Random number from 
-        <input></input> to 
-        <input></input>
+    <div>
+      <div className='main'>
+        Random number from 
+        <input className='input'></input> to 
+        <input className='input'></input>
       </div>
 
-      <button onClick={() => randomize()}>Randomize</button>
+      <button className='button' onClick={() => randomize()}>Generate!</button>
 
       <div className='result'>
-      <h1></h1>
+        <h1>Result: {result}</h1>
       </div>
-    </>
+    </div>
   )
 }
 

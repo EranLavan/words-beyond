@@ -9,7 +9,6 @@
 }
 
 .input {
-  flex: 1;
   width: 50px;
   padding: 8px;
   font-size: 16px;
@@ -29,6 +28,7 @@
 
 .button {
   display: block;
+  margin: 20px auto;
   padding: 10px 20px;
   font-size: 16px;
   font-family: Arial, sans-serif;
@@ -38,7 +38,6 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-left: 5px;
 }
 
 .button:hover {

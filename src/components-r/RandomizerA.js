@@ -1,16 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './styles/RndAStyleA.css';
 
 function RandomizerA() {
 
-  const [inputOne, setInputOne] = useState(0);
+  const [inputOne, setInputOne] = useState('');
+  //Look at ^^ this useState carefully, maybe it shouldn't be '', sondern 0 or smth else
   const [inputTwo, setInputTwo] = useState(0);
   const [result, setResult] = useState('');
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    inputRef.current.focus();
+  }, [])
 
   const randomize = () => {
     const randomNumber = Math.ceil((Math.random()*10));
     setResult(randomNumber);
-    console.log(`Random Number = ${randomNumber}`);
   }
 
 
@@ -21,8 +26,19 @@ function RandomizerA() {
     <div>
       <div className='main'>
         Random number from 
-        <input className='input'></input> to 
-        <input className='input'></input>
+        <input 
+          ref={inputRef}
+          className='input'
+          type='number'
+          placeholder='x'
+          // onKeyDown={handleKeyDown}
+          value={inputOne}
+          onChange={(e) => setInputOne(e.target.value)}
+        >
+        </input> to 
+
+        <input className='input'>
+        </input>
       </div>
 
       <button className='button' onClick={() => randomize()}>Generate!</button>

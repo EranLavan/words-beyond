@@ -3,7 +3,7 @@ import './styles/RndAStyleA.css';
 
 function RandomizerA() {
 
-  const [inputOne, setInputOne] = useState('');
+  const [inputOne, setInputOne] = useState(0);
   //Look at ^^ this useState carefully, maybe it shouldn't be '', sondern 0 or smth else
   const [inputTwo, setInputTwo] = useState(0);
   const [result, setResult] = useState('');
@@ -14,13 +14,12 @@ function RandomizerA() {
   }, [])
 
   const randomize = () => {
-    const randomNumber = Math.ceil((Math.random()*10));
+    const helperNumber = Math.ceil((Math.random()*(inputTwo - inputOne + 1)));
+    console.log(typeof(helperNumber));
+    const randomNumber = helperNumber + inputOne - 1;
+    console.log(typeof(randomNumber))
     setResult(randomNumber);
   }
-
-
-
-
 
   return (
     <div>
@@ -37,7 +36,13 @@ function RandomizerA() {
         >
         </input> to 
 
-        <input className='input'>
+        <input 
+          className='input'
+          type='number'
+          placeholder='y'
+          value={inputTwo}
+          onChange={(e) => setInputTwo(e.target.value)}
+        >
         </input>
       </div>
 

@@ -3,10 +3,9 @@ import './styles/RndAStyleA.css';
 
 function RandomizerA() {
 
-  const [inputOne, setInputOne] = useState(0);
-  //Look at ^^ this useState carefully, maybe it shouldn't be '', sondern 0 or smth else
-  const [inputTwo, setInputTwo] = useState(0);
-  const [result, setResult] = useState('');
+  const [inputOne, setInputOne] = useState('');
+  const [inputTwo, setInputTwo] = useState('');
+  const [result, setResult] = useState(0);
   const inputRef = useRef(null);
 
   useEffect(() => {
@@ -14,11 +13,8 @@ function RandomizerA() {
   }, [])
 
   const randomize = () => {
-    const helperNumber = Math.ceil((Math.random()*(inputTwo - inputOne + 1)));
-    console.log(typeof(helperNumber));
-    const randomNumber = helperNumber + inputOne - 1;
-    console.log(typeof(randomNumber))
-    setResult(randomNumber);
+    const delta = Math.ceil((Math.random()*(inputTwo - inputOne + 1)));
+    setResult(inputOne - 1 + delta);
   }
 
   return (

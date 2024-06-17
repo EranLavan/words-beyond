@@ -4,6 +4,7 @@ import RandomizerA from './components-r/RandomizerA';
 import Chart from './components-t/Chart';
 import Gtable from './components-t/Gtable';
 import Gchart from './components-t/Gchart';
+import Solubility from './components-t/Solubility';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Gtable />
 
       <Gchart />
+
+      <Solubility />
     </div> 
   );
 }

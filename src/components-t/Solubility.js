@@ -47,6 +47,26 @@ const data = [
               <td>{row.chloride}</td>
               <td>{row.bromide}</td>
               <td>{row.iodide}</td>
+              <td>{row.sulfide}</td>
+              <td>{row.hydrosulfide}</td>
+              <td>{row.sulfite}</td>
+              <td>{row.hydrosulfite}</td>
+              <td>{row.sulfate}</td>
+              <td>{row.hydrosulfate}</td>
+              <td>{row.nitrate}</td>
+              <td>{row.nitrite}</td>
+              <td>{row.phosphate}</td>
+              <td>{row.hydrophosphate}</td>
+              <td>{row.dihydrophosphate}</td>
+              <td>{row.carbonate}</td>
+              <td>{row.hydrocarbonate}</td>
+              <td>{row.acetate}</td>
+              <td>{row.silicate}</td>
+              <td>{row.permanganate}</td>
+              <td>{row.dichromate}</td>
+              <td>{row.chromate}</td>
+              <td>{row.chlorate}</td>
+              <td>{row.perchlorate}</td>
             </tr>
           ))}
         </tbody>

@@ -13,11 +13,20 @@ function App() {
       {/* <RandomizerA /> */}
       {/* <Chart /> */}
 
-      <Gtable />
+      <div>
+        <Gtable />
+      </div>
 
-      <Gchart />
+      <div>
+        {/* <Gchart /> */}
+      </div>
 
-      <Solubility />
+      <br></br>
+
+      <div>
+        <Solubility />
+      </div>
+
     </div> 
   );
 }

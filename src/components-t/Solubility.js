@@ -10,7 +10,23 @@ const data = [
     h: '',
     li: 'S',
     k: 'S',
-    na: 'S'
+    na: 'S',
+    nh4: 'S',
+    ba: 'S',
+    ca: 'sS',
+    mg: 'I',
+    sr: 'sS',
+    al: 'I',
+    cr: 'I',
+    fe2: 'I',
+    fe3: 'I',
+    mn: 'I',
+    zn: 'I',
+    ag: '?',
+    hg: '?',
+    pb: 'I',
+    sn: 'I',
+    cu: 'I'
   },
 
   {
@@ -41,26 +57,26 @@ const data = [
         <thead>
           <tr>
             <th>Anion &#8595; // Cation &#8594;</th>
-            <th>H+</th>
-            <th>Li+</th>
-            <th>K+</th>
-            <th>Na+</th>
-            <th>NH4+</th>
-            <th>Ba2+</th>
-            <th>Ca2+</th>
-            <th>Mg2+</th>
-            <th>Sr2+</th>
-            <th>Al3+</th>
-            <th>Cr3+</th>
-            <th>Fe2+</th>
-            <th>Fe3+</th>
-            <th>Mn2+</th>
-            <th>Zn2+</th>
-            <th>Ag+</th>
-            <th>Hg2+</th>
-            <th>Pb2+</th>
-            <th>Sn2+</th>
-            <th>Cu2+</th>
+            <th>H<sup>+</sup></th>
+            <th>Li<sup>+</sup></th>
+            <th>K<sup>+</sup></th>
+            <th>Na<sup>+</sup></th>
+            <th>NH<sub>4</sub><sup>+</sup></th>
+            <th>Ba<sup>2+</sup></th>
+            <th>Ca<sup>2+</sup></th>
+            <th>Mg<sup>2+</sup></th>
+            <th>Sr<sup>2+</sup></th>
+            <th>Al<sup>3+</sup></th>
+            <th>Cr<sup>3+</sup></th>
+            <th>Fe<sup>2+</sup></th>
+            <th>Fe<sup>3+</sup></th>
+            <th>Mn<sup>2+</sup></th>
+            <th>Zn<sup>2+</sup></th>
+            <th>Ag<sup>+</sup></th>
+            <th>Hg<sup>2+</sup></th>
+            <th>Pb<sup>2+</sup></th>
+            <th>Sn<sup>2+</sup></th>
+            <th>Cu<sup>2+</sup></th>
           </tr>
         </thead>
 
@@ -72,6 +88,22 @@ const data = [
               <td>{row.li}</td>
               <td>{row.k}</td>
               <td>{row.na}</td>
+              <td>{row.nh4}</td>
+              <td>{row.ba}</td>
+              <td>{row.ca}</td>
+              <td>{row.mg}</td>
+              <td>{row.sr}</td>
+              <td>{row.al}</td>
+              <td>{row.cr}</td>
+              <td>{row.fe2}</td>
+              <td>{row.fe3}</td>
+              <td>{row.mn}</td>
+              <td>{row.zn}</td>
+              <td>{row.ag}</td>
+              <td>{row.hg}</td>
+              <td>{row.pb}</td>
+              <td>{row.sn}</td>
+              <td>{row.cu}</td>
             </tr>
           ))}
         </tbody>

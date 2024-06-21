@@ -46,6 +46,78 @@ const data = [
     k: 'S',
     na: 'S'
   },
+  
+  {
+    id: 4,
+    anion: 'Br-',
+    h: 'S',
+    li: 'S',
+    k: 'S',
+    na: 'S'
+  },
+  
+  {
+    id: 5,
+    anion: 'I-',
+    h: 'S',
+    li: 'S',
+    k: 'S',
+    na: 'S'
+  },
+  
+  {
+    id: 6,
+    anion: 'S2-',
+    h: 'S',
+    li: 'S',
+    k: 'S',
+    na: 'S'
+  },
+  
+  {
+    id: 7,
+    anion: 'HS-',
+    h: 'S',
+    li: 'S',
+    k: 'S',
+    na: 'S'
+  },
+    
+  {
+    id: 8,
+    anion: 'SO32-',
+    h: 'S',
+    li: 'S',
+    k: 'S',
+    na: 'S'
+  },
+    
+  {
+    id: 9,
+    anion: 'HSO3-',
+    h: 'S',
+    li: '?',
+    k: 'S',
+    na: 'S'
+  },
+    
+  {
+    id: 10,
+    anion: 'SO42-',
+    h: 'S',
+    li: 'S',
+    k: 'S',
+    na: 'S'
+  },
+    
+  {
+    id: 11,
+    anion: 'HSO4-',
+    h: 'S',
+    li: 'S',
+    k: 'S',
+    na: 'S'
+  },
 
 ]
 

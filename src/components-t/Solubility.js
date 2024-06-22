@@ -118,6 +118,42 @@ const data = [
     k: 'S',
     na: 'S'
   },
+      
+  {
+    id: 12,
+    anion: 'NO3-',
+    h: 'S',
+    li: 'S',
+    k: 'S',
+    na: 'S'
+  },
+      
+  {
+    id: 13,
+    anion: 'NO2-',
+    h: 'S',
+    li: 'S',
+    k: 'S',
+    na: 'S'
+  },
+      
+  {
+    id: 14,
+    anion: 'PO43-',
+    h: 'S',
+    li: 'I',
+    k: 'S',
+    na: 'S'
+  },
+      
+  {
+    id: 15,
+    anion: 'HPO42-',
+    h: 'S',
+    li: '?',
+    k: 'S',
+    na: 'S'
+  },
 
 ]
 

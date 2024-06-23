@@ -154,6 +154,42 @@ const data = [
     k: 'S',
     na: 'S'
   },
+        
+  {
+    id: 16,
+    anion: 'H2PO4-',
+    h: 'S',
+    li: 'S',
+    k: 'S',
+    na: 'S'
+  },
+        
+  {
+    id: 17,
+    anion: 'CO32-',
+    h: 'S',
+    li: 'S',
+    k: 'S',
+    na: 'S'
+  },
+        
+  {
+    id: 18,
+    anion: 'HCO3-',
+    h: 'S',
+    li: 'S',
+    k: 'S',
+    na: 'S'
+  },
+        
+  {
+    id: 19,
+    anion: 'CH3COO-',
+    h: 'S',
+    li: 'S',
+    k: 'S',
+    na: 'S'
+  },
 
 ]
 

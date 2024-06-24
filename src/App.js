@@ -5,6 +5,7 @@ import Chart from './components-t/Chart';
 import Gtable from './components-t/Gtable';
 import Gchart from './components-t/Gchart';
 import Solubility from './components-t/Solubility';
+import SolubilityDraft from './components-t/SolubilityDraft';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       <br></br>
 
       <div>
-        <Solubility />
+        <SolubilityDraft />
       </div>
 
     </div> 

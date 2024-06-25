@@ -35,7 +35,23 @@ const data = [
     h: 'S',
     li: 'sS',
     k: 'S',
-    na: 'S'
+    na: 'S',
+    nh4: 'S',
+    ba: 'sS',
+    ca: 'I',
+    mg: 'I',
+    sr: 'I',
+    al: 'sS',
+    cr: 'I',
+    fe2: 'I',
+    fe3: 'I',
+    mn: 'S',
+    zn: 'S',
+    ag: 'S',
+    hg: '-',
+    pb: 'I',
+    sn: 'S',
+    cu: 'S'
   },
 
   {

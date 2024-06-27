@@ -1,26 +1,60 @@
-import React from 'react'
+import React from 'react';
+import Tooltip from './Tooltip';
+import './SolubilityDraftStyle.css'
 
 function SolubilityDraft() {
 
 const data = [
 
+// IMPORTANT: we can add specific numbers to the tooltip, not just Soluble/Insoluble
+
   {
     id: 1,
-    anion: 'OH-',
-    h: '',
-    na: 'S'
+
+    anion: { 
+      value: 'OH-', 
+      url: '',
+      tooltip: '' 
+    },
+
+    h: { 
+      value: '', 
+      url: 'https://example.com/water',
+      tooltip: 'Water'
+    },
+
+    na: { 
+      value: 'S', 
+      url: 'https://example.com/naoh',
+      tooltip: 'Sodium Hydroxide\nHighly soluble ' 
+    }
   },
 
   {
     id: 2,
-    anion: 'Cl-',
-    h: 'S',
-    na: 'S'
+    anion: {
+      value: 'Cl-',
+      url: '',
+      tooltip: '' 
+    },
+
+    h: { 
+      value: 'S', 
+      url: '',
+      tooltip: '' 
+    },
+
+    na: { 
+      value: 'S', 
+      url: '',
+      tooltip: '' 
+    },
   }
 ]
 
-  const handleCellClick = (row, column) => {
-    console.log(`Clicked on ${column}: ${row[column]}`);
+  const handleCellClick = (url) => {
+    console.log(`Redirecting to ${url}`);
+    window.location.href = url;
   };
 
   return (
@@ -30,7 +64,7 @@ const data = [
       >
         <thead>
           <tr>
-            <th>Anion/Cation</th>
+            <th>Anion &#8595; // Cation &#8594;</th>
             <th>H<sup>+</sup></th>
             <th>Na<sup>+</sup></th>
           </tr>
@@ -39,9 +73,19 @@ const data = [
         <tbody>
           {data.map((row) => (
             <tr key={row.id}>
-              <td onClick={() => handleCellClick(row, 'anion')}>{row.anion}</td>
-              <td>{row.h}</td>
-              <td>{row.na}</td>
+              <td>{row.anion.value}</td>
+              
+              <td className="clickable" onClick={() => handleCellClick(row.h.url)}>
+                <Tooltip text={row.h.tooltip}>
+                  {row.h.value}
+                </Tooltip>
+              </td>
+              
+              <td className="clickable" onClick={() => handleCellClick(row.na.url)}>
+                <Tooltip text={row.na.tooltip}>
+                  {row.na.value}
+                </Tooltip>
+              </td>
             </tr>
           ))}
         </tbody>

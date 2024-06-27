@@ -15,7 +15,7 @@ function App() {
       {/* <Chart /> */}
 
       <div>
-        <Gtable />
+        {/* <Gtable /> */}
       </div>
 
       <div>

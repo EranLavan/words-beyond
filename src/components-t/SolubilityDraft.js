@@ -1,6 +1,6 @@
 import React from 'react';
 import Tooltip from './Tooltip';
-import './SolubilityDraftStyle.css'
+import './SolubilityDraftStyle4.css'
 
 function SolubilityDraft() {
 

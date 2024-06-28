@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Tooltip from './Tooltip';
+import './SolubilityStyle.css';
 
 function Solubility() {
 
@@ -6,8 +8,19 @@ const data = [
 
   {
     id: 1,
-    anion: 'OH-',
-    h: '',
+    
+    anion: {
+      value: 'OH-',
+      url: '',
+      tooltip: 'Hydroxide'
+    },
+
+    h: { 
+      value: '',
+      url: 'https://content.health.harvard.edu/wp-content/uploads/2023/07/b8a1309a-ba53-48c7-bca3-9c36aab2338a.jpg',
+      tooltip: 'Water'
+    },
+
     li: 'S',
     k: 'S',
     na: 'S',
@@ -225,6 +238,11 @@ const data = [
 
 ]
 
+  const handleCellClick = (url) => {
+    console.log(`New tab opened: ${url}`);
+    window.location.href = url;
+  }
+
   return (
     <div>
       <table
@@ -259,8 +277,13 @@ const data = [
         <tbody>
           {data.map((row) => (
             <tr key={row.id}>
-              <td>{row.anion}</td>
-              <td>{row.h}</td>
+              <td>{row.anion.value}</td>
+
+              <td
+                className="clickable"
+                onClick={() => handleCellClick(row.h.url)}>
+                  {row.h}
+              </td>
               <td>{row.li}</td>
               <td>{row.k}</td>
               <td>{row.na}</td>

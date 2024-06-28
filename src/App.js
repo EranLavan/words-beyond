@@ -28,6 +28,10 @@ function App() {
         <SolubilityDraft />
       </div>
 
+      <div>
+        {/* <Solubility /> */}
+      </div>
+
     </div> 
   );
 }

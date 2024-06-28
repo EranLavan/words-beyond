@@ -1,4 +1,4 @@
-table {
+.app-container.style3 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
@@ -7,46 +7,51 @@ table {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
   
-  table thead tr {
+  .app-container.style3 table thead tr {
     background-color: #34495e;
     color: #ffffff;
   }
   
-  table th, table td {
+  .app-container.style3 table th, table td {
     padding: 12px 15px;
-    text-align: left;
+    text-align: center;
   }
   
-  table tbody tr {
+  .app-container.style3 table tbody tr {
     border-bottom: 1px solid #dddddd;
     transition: background-color 0.3s ease;
   }
   
-  table tbody tr:nth-of-type(even) {
+  .app-container.style3 table tbody tr:nth-of-type(even) {
     background-color: #f3f3f3;
   }
   
-  table tbody tr:hover {
-    background-color: #f1c40f;
+  .app-container.style3 table tbody tr:hover {
+    background-color: #2fa32b;
     color: #ffffff;
   }
   
-  .clickable {
+  .app-container.style3 .clickable {
     cursor: pointer;
     transition: color 0.3s ease;
   }
   
-  .clickable:hover {
+  .app-container.style3 .clickable:hover {
+    background-color: #9fd4ec;
     color: #2980b9;
   }
+
+  .equal-width {
+    width: 40px;
+  }
   
-  .tooltip {
+  .app-container.style3 .tooltip {
     position: relative;
     display: inline-block;
     cursor: pointer;
   }
   
-  .tooltip .tooltip-text {
+  .app-container.style3 .tooltip .tooltip-text {
     visibility: hidden;
     width: 180px;
     background-color: #333;
@@ -65,12 +70,12 @@ table {
     white-space: pre-line;
   }
   
-  .tooltip:hover .tooltip-text {
+  .app-container.style3 .tooltip:hover .tooltip-text {
     visibility: visible;
     opacity: 1;
   }
   
-  .tooltip .tooltip-text::after {
+  .app-container.style3 .tooltip .tooltip-text::after {
     content: '';
     position: absolute;
     top: 100%;

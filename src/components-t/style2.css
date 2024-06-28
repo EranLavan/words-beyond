@@ -1,4 +1,4 @@
-table {
+.app-container.style2 table {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0 10px;
@@ -7,53 +7,57 @@ table {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  table thead tr {
+.app-container.style2 table thead tr {
     background-color: #4CAF50;
     color: #ffffff;
-    text-align: left;
+    text-align: center;
   }
   
-  table th, table td {
+  .app-container.style2 table th, table td {
     padding: 12px 15px;
   }
   
-  table tbody tr {
+  .app-container.style2 table tbody tr {
     background-color: #f9f9f9;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
   }
   
-  table tbody tr:hover {
+  .app-container.style2 table tbody tr:hover {
     transform: scale(1.01);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   }
   
-  table tbody tr:nth-of-type(even) {
+  .app-container.style2 table tbody tr:nth-of-type(even) {
     background-color: #e3f2fd;
   }
   
-  table tbody tr:hover td {
+  .app-container.style2 table tbody tr:hover td {
     background-color: #e1f5fe;
   }
   
-  .clickable {
+  .app-container.style2 .clickable {
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
-  .clickable:hover {
+  .app-container.style2 .clickable:hover {
     background-color: #4CAF50;
     color: #ffffff;
   }
+
+  .equal-width {
+    width: 40px;
+  }
   
-  .tooltip {
+  .app-container.style2 .tooltip {
     position: relative;
     display: inline-block;
     cursor: pointer;
   }
   
-  .tooltip .tooltip-text {
+  .app-container.style2 .tooltip .tooltip-text {
     visibility: hidden;
     width: 150px;
     background-color: #333;
@@ -72,12 +76,12 @@ table {
     white-space: pre-line;
   }
   
-  .tooltip:hover .tooltip-text {
+  .app-container.style2 .tooltip:hover .tooltip-text {
     visibility: visible;
     opacity: 1;
   }
   
-  .tooltip .tooltip-text::after {
+  .app-container.style2 .tooltip .tooltip-text::after {
     content: '';
     position: absolute;
     top: 100%;

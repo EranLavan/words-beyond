@@ -1,6 +1,7 @@
 .app-container.style5 table {
     width: 100%;
     border-collapse: collapse;
+    /* table-layout: fixed; */
     margin: 20px 0;
     font-size: 1em;
     font-family: 'Arial', sans-serif;
@@ -44,6 +45,10 @@
 
   .equal-width {
     width: 40px;
+  }
+
+  .anion-column {
+    width: 100px;
   }
   
   .app-container.style5 .tooltip {

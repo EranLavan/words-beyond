@@ -35,26 +35,26 @@ function SolubilityDraft() {
 
     li: { 
       value: 'S', 
-      url: '',
-      tooltip: '' 
+      url: 'https://nukem-isotopes.de/wp-content/uploads/2016/10/Lithium-Hydroxid-Isotopes-2.jpg',
+      tooltip: 'LiOH\nLithium Hydroxide\nSoluble\n<img src="https://nukem-isotopes.de/wp-content/uploads/2016/10/Lithium-Hydroxid-Isotopes-2.jpg" width=150 />' 
     },
 
     na: {
       value: 'S',
       url: 'https://media.licdn.com/dms/image/C4E12AQHNTk_DlltKvA/article-cover_image-shrink_720_1280/0/1628426265063?e=1724889600&v=beta&t=ZxbfN4Tgcrkf9or69ndzzkKEY-L0qQTPAKQRayXksq8',
-      tooltip: 'Sodium Hydroxide\nHighly soluble\n<img src="https://media.licdn.com/dms/image/C4E12AQHNTk_DlltKvA/article-cover_image-shrink_720_1280/0/1628426265063?e=1724889600&v=beta&t=ZxbfN4Tgcrkf9or69ndzzkKEY-L0qQTPAKQRayXksq8" alt="Sodium Hydroxide" width=200 />'
+      tooltip: 'NaOH\nSodium Hydroxide\nHighly soluble\n<img src="https://media.licdn.com/dms/image/C4E12AQHNTk_DlltKvA/article-cover_image-shrink_720_1280/0/1628426265063?e=1724889600&v=beta&t=ZxbfN4Tgcrkf9or69ndzzkKEY-L0qQTPAKQRayXksq8" width=200 />'
     },
 
     k: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://blog.agchemigroup.eu/content/images/2021/11/The-Usefulness-of-Potassium-Hydroxide-KOH-PIC-B.jpg',
+      tooltip: 'KOH\nPotassium Hydroxide\nHighly soluble\n<img src="https://blog.agchemigroup.eu/content/images/2021/11/The-Usefulness-of-Potassium-Hydroxide-KOH-PIC-B.jpg" width=200 />'
     },
 
     nh4: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://cdn11.bigcommerce.com/s-bbz4nwgpba/images/stencil/960w/attribute_rule_images/398_source_1653983871.jpg',
+      tooltip: 'NH<sub>3</sub><sup>.</sup>H<sub>2</sub>O\nAmmonia solution\nHighly soluble\n<img src="https://cdn11.bigcommerce.com/s-bbz4nwgpba/images/stencil/960w/attribute_rule_images/398_source_1653983871.jpg" width=120 />'
     },
 
     ba: {
@@ -158,121 +158,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'sS', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     }
@@ -288,121 +288,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     }
@@ -418,121 +418,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     }
@@ -548,121 +548,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     }
@@ -678,121 +678,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: 'I*',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: 'I*',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'I*',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: 'I*',
       url: '',
       tooltip: ''
     }
@@ -808,121 +808,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     }
@@ -938,121 +938,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     }
@@ -1068,121 +1068,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: '?', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     }
@@ -1198,121 +1198,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     }
@@ -1328,121 +1328,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     }
@@ -1458,121 +1458,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     }
@@ -1588,121 +1588,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     }
@@ -1718,121 +1718,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'I', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     }
@@ -1848,121 +1848,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: '?', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     }
@@ -1978,121 +1978,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     }
@@ -2108,121 +2108,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     }
@@ -2238,121 +2238,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     }
@@ -2368,121 +2368,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: '–',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     }
@@ -2498,121 +2498,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'I', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'I', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     }
@@ -2628,121 +2628,121 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     }
@@ -2758,121 +2758,381 @@ function SolubilityDraft() {
     },
 
     h: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: ''
     },
 
     li: { 
-      value: '', 
+      value: 'S', 
       url: '',
       tooltip: '' 
     },
 
     na: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     k: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     nh4: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     ba: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
 
     ca: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
 
     mg: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     sr: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     al: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cr: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe2: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     fe3: {
-      value: '',
+      value: 'S',
       url: '',
       tooltip: ''
     },
     
     mn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     zn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     ag: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     hg: {
-      value: '',
+      value: 'I',
       url: '',
       tooltip: ''
     },
     
     pb: {
-      value: '',
+      value: 'sS',
       url: '',
       tooltip: ''
     },
     
     sn: {
-      value: '',
+      value: '?',
       url: '',
       tooltip: ''
     },
     
     cu: {
-      value: '',
+      value: 'S',
+      url: '',
+      tooltip: ''
+    }
+  },
+
+  {
+    id: 23,
+
+    anion: { 
+      value: '<b>CrO<sub>4</sub><sup>2-</sup></b>', 
+      url: '',
+      tooltip: '' 
+    },
+
+    h: { 
+      value: 'S', 
+      url: '',
+      tooltip: ''
+    },
+
+    li: { 
+      value: 'S', 
+      url: '',
+      tooltip: '' 
+    },
+
+    na: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+
+    k: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+
+    nh4: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+
+    ba: {
+      value: 'I',
+      url: '',
+      tooltip: ''
+    },
+
+    ca: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+
+    mg: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+    
+    sr: {
+      value: 'I',
+      url: '',
+      tooltip: ''
+    },
+    
+    al: {
+      value: '?',
+      url: '',
+      tooltip: ''
+    },
+    
+    cr: {
+      value: '?',
+      url: '',
+      tooltip: ''
+    },
+    
+    fe2: {
+      value: '?',
+      url: '',
+      tooltip: ''
+    },
+    
+    fe3: {
+      value: 'I',
+      url: '',
+      tooltip: ''
+    },
+    
+    mn: {
+      value: 'I',
+      url: '',
+      tooltip: ''
+    },
+    
+    zn: {
+      value: 'I',
+      url: '',
+      tooltip: ''
+    },
+    
+    ag: {
+      value: 'I',
+      url: '',
+      tooltip: ''
+    },
+    
+    hg: {
+      value: 'I',
+      url: '',
+      tooltip: ''
+    },
+    
+    pb: {
+      value: 'I',
+      url: '',
+      tooltip: ''
+    },
+    
+    sn: {
+      value: 'I',
+      url: '',
+      tooltip: ''
+    },
+    
+    cu: {
+      value: 'I',
+      url: '',
+      tooltip: ''
+    }
+  },
+
+  {
+    id: 24,
+
+    anion: { 
+      value: '<b>ClO<sub>4</sub><sup>-</sup></b>', 
+      url: '',
+      tooltip: '' 
+    },
+
+    h: { 
+      value: 'S', 
+      url: '',
+      tooltip: ''
+    },
+
+    li: { 
+      value: 'S', 
+      url: '',
+      tooltip: '' 
+    },
+
+    na: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+
+    k: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+
+    nh4: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+
+    ba: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+
+    ca: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+
+    mg: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+    
+    sr: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+    
+    al: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+    
+    cr: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+    
+    fe2: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+    
+    fe3: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+    
+    mn: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+    
+    zn: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+    
+    ag: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+    
+    hg: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+    
+    pb: {
+      value: 'S',
+      url: '',
+      tooltip: ''
+    },
+    
+    sn: {
+      value: '?',
+      url: '',
+      tooltip: ''
+    },
+    
+    cu: {
+      value: 'S',
       url: '',
       tooltip: ''
     }
@@ -2935,7 +3195,7 @@ function SolubilityDraft() {
           {data.map((row) => (
             <tr key={row.id}>
               {/* <td>{row.anion.value}</td> */}
-              <td dangerouslySetInnerHTML={{ __html: row.anion.value }}></td>
+              <td className="anion-column" dangerouslySetInnerHTML={{ __html: row.anion.value }}></td>
               
               <td className="equal-width clickable" onClick={() => handleCellClick(row.h.url)}>
                 <Tooltip text={row.h.tooltip}>

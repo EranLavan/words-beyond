@@ -1,6 +1,8 @@
 .app-container.style4 table {
     width: 100%;
     border-collapse: collapse;
+    text-align: center;
+    /* table-layout: fixed; */
     margin: 20px 0;
     font-size: 1em;
     font-family: 'Arial', sans-serif;
@@ -12,8 +14,9 @@
     color: #ffffff;
   }
   
-  .app-container.style4 table th, table td {
+  .app-container.style4 table th, .app-container.style4 table td {
     padding: 12px 15px;
+    border: 1px solid #ddd;
     text-align: center;
   }
   
@@ -41,7 +44,7 @@
     color: #1abc9c;
   }
 
-  .equal-width {
+  .app-container.style4 .equal-width {
     width: 40px;
   }
   

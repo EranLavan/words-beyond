@@ -419,122 +419,122 @@ function SolubilityDraft() {
 
     h: { 
       value: 'S', 
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=hydrobromic+acid&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'HBr\nHydrobromic Acid\nStrong Acid'
     },
 
     li: { 
       value: 'S', 
-      url: '',
-      tooltip: '' 
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=lithium+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'LiBr\nLithium Bromide\nSoluble' 
     },
 
     na: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=sodium+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'NaBr\nSodium Bromide\nSoluble'
     },
 
     k: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=potassium+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'KBr\nPotassium Bromide\nSoluble'
     },
 
     nh4: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=ammonium+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'NH<sub>4</sub>Br\nAmmonium Bromide\nSoluble'
     },
 
     ba: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=barium+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'BaBr<sub>2</sub>\nBarium Bromide\nSoluble'
     },
 
     ca: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=calcium+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'CaBr<sub>2</sub>\nCalcium Bromide\nSoluble'
     },
 
     mg: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=magnesium+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'MgBr<sub>2</sub>\nMagnesium Bromide\nSoluble'
     },
     
     sr: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=strontium+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'SrBr<sub>2</sub>\nStrontium Bromide\nSoluble'
     },
     
     al: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=aluminium+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'AlBr<sub>3</sub>\nAluminium Bromide\nSoluble'
     },
     
     cr: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=chromium+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'CrBr<sub>3</sub>\nChromium (III) Bromide\nSoluble'
     },
     
     fe2: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=ferrous+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'FeBr<sub>2</sub>\nFerrous Bromide\nSoluble'
     },
     
     fe3: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=ferric+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'FeBr<sub>3</sub>\nFerric Bromide\nSoluble'
     },
     
     mn: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=manganese+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'MnBr<sub>2</sub>\nManganese Bromide\nSoluble'
     },
     
     zn: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=zinc+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'ZnBr<sub>2</sub>\nZinc Bromide\nSoluble'
     },
     
     ag: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=silver+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'AgBr\nSilver Bromide\nRelatively insoluble'
     },
     
     hg: {
       value: 'sS',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=mercury+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'HgBr2\nMercury bromide\nSlightly soluble'
     },
     
     pb: {
       value: 'sS',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=lead+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'PbBr2\nLead (II) bromide\nSlightly soluble'
     },
     
     sn: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=tin+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'SnBr<sub>2</sub>\nTin (II) Bromide\nSoluble'
     },
     
     cu: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=copper+bromide&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'CuBr<sub>2</sub>\nCopper (II) Bromide\nSoluble'
     }
   },
 

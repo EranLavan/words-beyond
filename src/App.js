@@ -1,36 +1,17 @@
-// import logo from './logo.svg';
+import React from 'react';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-// import RandomizerA from './components-r/RandomizerA';
-// import Gtable from './components-t/Gtable';
-// import Gchart from './components-t/Gchart';
-// import Solubility from './components-t/Solubility';
-import SolubilityDraft from './components-t/SolubilityDraft';
+import EgeMain from './EgeMain/EgeMain.js';
 
 function App() {
   return (
-    <div>
-      {/* <AaApiTestOne /> */}
-      {/* <RandomizerA /> */}
+    <Router>
+      <Routes>
 
-      <div>
-        {/* <Gtable /> */}
-      </div>
+        <Route path="/" element={<EgeMain/>} />
 
-      <div>
-        {/* <Gchart /> */}
-      </div>
-
-      <br></br>
-
-      <div>
-        <SolubilityDraft />
-      </div>
-
-      <div>
-        {/* <Solubility /> */}
-      </div>
-
-    </div> 
+      </Routes>
+    </Router>
   );
 }
 

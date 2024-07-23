@@ -22,6 +22,11 @@
   margin-bottom: 30px;
 }
 
+.linkDivLink {
+  text-decoration: none;
+  color: inherit;
+}
+
 .linkDiv {
   font-size: 20px;
   cursor: pointer;

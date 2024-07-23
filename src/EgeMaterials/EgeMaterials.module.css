@@ -1,0 +1,48 @@
+.container {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    background-color: rgb(230, 252, 230);
+    max-width: 600px;
+    width: 400px;
+    min-width: 200px;
+  }
+  
+  .header {
+    font-weight: 500;
+  }
+  
+  .linkDivContainer {
+    margin-bottom: 30px;
+  }
+  
+  .linkDivLink {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .linkDiv {
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: rgb(197, 236, 199);
+  }
+  
+  .linkDiv:hover {
+    opacity: 0.8;
+  }
+  
+  .linkDiv:active {
+    opacity: 0.5;
+  }
